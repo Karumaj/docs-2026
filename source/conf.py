@@ -17,8 +17,14 @@ spelling_lang = 'en_GB'
 
 extensions = [
     'sphinx.ext.intersphinx',
-     'sphinxcontrib.spelling'
+   # 'sphinxcontrib.spelling'
 ]
+try:
+    import sphinxcontrib.spelling  # noqa: F401
+    extensions.append("sphinxcontrib.spelling")
+except ImportError:
+    pass
+    
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3', None),
     'diataxis': ('https://diataxis.fr', None)
