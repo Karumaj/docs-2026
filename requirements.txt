@@ -1,4 +1,3 @@
 sphinx
 furo
 sphinx-inline-tabs
-pyenchant

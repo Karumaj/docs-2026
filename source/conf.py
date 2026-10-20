@@ -16,9 +16,11 @@ spelling_lang = 'en_GB'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
-    'sphinx.ext.intersphinx',
-   # 'sphinxcontrib.spelling'
+    "sphinx.ext.intersphinx",
+    "sphinx_inline_tabs",
 ]
+
+# Try importing spelling; skip it gracefully on Read the Docs if missing
 try:
     import sphinxcontrib.spelling  # noqa: F401
     extensions.append("sphinxcontrib.spelling")
