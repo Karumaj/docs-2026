@@ -2,7 +2,7 @@
 My Projects Repo
 =================
 
-2026 Projects
+Featured Projects
 =====================
 
 .. sidebar:: Projects By Timeline
@@ -22,7 +22,8 @@ My Projects Repo
 
    successful-projects
    unsuccessful-projects
-   
+   documents
+
 *About the Repo:* The Repository Contains Key Details of the Completed and Active Ongoing Projects 
 Projects can be defined by **five major binary characteristics:**
 
